@@ -19,7 +19,6 @@ dd if=prg/character.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06AB))
 dd if=prg/bashful.bin of="$ROM" conv=notrunc bs=1 seek=$((0x06EE))
 dd if=prg/10pts.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0717))
 dd if=prg/50pts.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0722))
-dd if=prg/pause.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0B6B))
 dd if=prg/header1.bin of="$ROM" conv=notrunc bs=1 seek=$((0x34B0))
 dd if=prg/player1.bin of="$ROM" conv=notrunc bs=1 seek=$((0x34C8))
 dd if=prg/player2.bin of="$ROM" conv=notrunc bs=1 seek=$((0x34D4))
@@ -34,6 +33,13 @@ dd if=prg/gameover.bin of="$ROM" conv=notrunc bs=1 seek=$((0x3580))
 dd if=prg/spacefix.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0EF9))
 dd if=prg/playeronetwo.bin of="$ROM" conv=notrunc bs=1 seek=$((0x3557))
 dd if=prg/playeronetwo.bin of="$ROM" conv=notrunc bs=1 seek=$((0x3588))
+
+# PAUSE -> PAUxZITA
+# length counters
+dd if=prg/0B23.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0B23)) # LDX #$06
+dd if=prg/0B3A.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0B3A)) # CPY #$06
+dd if=prg/0B32.bin of="$ROM" conv=notrunc bs=1 seek=$((0x0B32)) # LDA pausetxt, X
+dd if=prg/pausetxt.bin of="$ROM" conv=notrunc bs=1 seek=$((0x35B0))
 
 echo "Updating CHR..."
 dd if=chr/ux.bin of="$ROM" conv=notrunc bs=1 seek=$((0x4520))
