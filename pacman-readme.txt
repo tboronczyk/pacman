@@ -11,15 +11,16 @@ retpaĝo por la projekto estas
 
 PRISKRIBO DE LUDO
 -----------------
-Laŭ via komando, Pac-Man pretas kuri en la konfuziga
-labirinto, manĝante la punktojn, glutante la fojajn
-fruktojn, kaj gajnante multajn da poentoj. Blinky,
-Pinky, Inky, kaj Clyde, la ne-amikemaj fantomoj, ankaŭ
-volas manĝi... sed ilia plej ŝatata manĝaĵo estas
-Pac-Man! Lia sola defendo estas manĝi specialajn
-punktegojn, kiuj povigas Pac-Man al manĝi la fantomojn
--- sed nur portempe! Post ĉiu nivelo, la efikeco de la
-punktegoj malpliiĝas kaj la fantomoj movas pli rapide.
+Laŭ via komando, Pac-Man pretas kuri en la konfuza
+labirinto, manĝante la punktojn, kelkfoje glutante
+fruktojn, kaj gajnante multajn poentojn. Ankaŭ
+Blinky, Pinky, Inky, kaj Clyde, la ne-amikemaj
+fantomoj, volas manĝi... sed ilia plej ŝatata
+manĝaĵo estas Pac-Man! Lia sola defendo estas manĝi
+specialajn punktegojn, kiuj povigas Pac-Man manĝi
+la fantomojn -- sed nur dumtempe! Post ĉiu nivelo,
+la efikeco de la punktegoj malpliiĝas kaj la
+fantomoj moviĝas pli rapide.
 
 INFORMOJ PRI ROM
 ----------------
@@ -43,6 +44,9 @@ KONTRIBUANTOJ
 -------------
 Timoteo BORONCZYK/bluephoenix
  - Tradukado, programado
+
+Zerbie HYNSON/Terpomo11
+ - Traduka konsultisto
 
 Specialajn dankojn al Her-Saki por la hispana traduko
 (https://www.romhacking.net/translations/3363/), kaj
