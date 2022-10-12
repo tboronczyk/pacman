@@ -14,6 +14,11 @@ considered piracy.
 
   * Pac-Man (USA) (Namco) - CRC32 `9E4E9CC2`
 
+Special thanks to [Her-Saki](https://www.romhacking.net/community/4281/)
+for their [Spanish translation](https://www.romhacking.net/translations/3363/),
+and to cyneprepou4uk for their
+[disassembly](https://github.com/cyneprepou4uk/NES-Games-Disassembly/).
+
 ## Screenshots
 
 Here are some pretty screenshots:
