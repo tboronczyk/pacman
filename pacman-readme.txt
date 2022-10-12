@@ -1,15 +1,42 @@
 Pac Man (NES)
-Traduko al Esperanto v1.0 (22/10/2020)
-BluePhoenix
+Traduko al Esperanto v1.1
+
+ENKONDUKO
+---------
+Ĉi tiu projekto estas Esperanta traduko de Pac-Man,
+videoludo por la Nintendo Entertainment System. La
+retpaĝo por la projekto estas
+
+    http://github.com/tboronczyk/pacman
+
+PRISKRIBO DE LUDO
+-----------------
+...
 
 INFORMOJ PRI ROM
 ----------------
+Vi devas posedi fizikan kopion de la kartoĉo de Pac-Man
+Alŝulti ROM-on de videoludo, kiun vi ne posedas, povas
+esti pirateco.
+
 Pac-Man (USA) (Namco).nes
-MD5: CA606BD8A875A396D52735C3BB84FA67
-SHA-1: 92C3361B9E3B28A51FD30E7845C988A6D576EE65
 CRC32: 9E4E9CC2
 
-NOTOJ
------
-Ĉi tiu projekto baziĝis ĉefe sur la koduma laboro de Her-Saki en la hispana
-traduko.
+HISTORIO
+--------
+v1.0  28/12/2017
+ - Unua eldono
+
+v1.1
+ - Ĝustigi "Rolulo" kaj paŭz-tekston
+ - aldoni grafikaĵojn
+
+KONTRIBUANTOJ
+-------------
+Timoteo BORONCZYK/bluephoenix
+ - Tradukado, programado
+
+Specialajn dankojn al Her-Saki por la hispana traduko
+(https://www.romhacking.net/translations/3363/), kaj
+al cyneprepou4uk por la retrotraduko
+(https://github.com/cyneprepou4uk/NES-Games-Disassembly/).
